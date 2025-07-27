@@ -1,7 +1,9 @@
 using Newtonsoft.Json;
 
 namespace WrapBlox.Legacy.Models.Users;
-
+/// <summary>
+/// The response model for the age bracket of a user.
+/// </summary>
 public record UserAgeBracketResponse {
 	/// <summary>
 	/// The age bracket of the user.
