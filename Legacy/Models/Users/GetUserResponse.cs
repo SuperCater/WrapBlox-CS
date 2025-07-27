@@ -27,6 +27,7 @@ public record GetUserResponse : AuthenticatedGetUserResponse {
 	/// <summary>
 	/// Unused, legacy attribute. For now always null to not disturb existing client code that might rely on its existence.
 	/// </summary>
+	[Obsolete("Always equal to null.")]
 	[JsonProperty("externalAppDisplayName", NullValueHandling = NullValueHandling.Ignore)]
 	public string? ExternalAppDisplayName { get; init; }
 	
