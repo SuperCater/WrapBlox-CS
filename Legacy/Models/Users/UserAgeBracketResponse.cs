@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using WrapBlox.Legacy.Enums;
 
 namespace WrapBlox.Legacy.Models.Users;
 /// <summary>
@@ -9,5 +10,5 @@ public record UserAgeBracketResponse {
 	/// The age bracket of the user.
 	/// </summary>
 	[JsonProperty("ageBracket")]
-	public int AgeBracket { get; init; } // TODO: Once documented change to AgeBracketEnum
+	public AgeBracket AgeBracket { get; init; }
 }

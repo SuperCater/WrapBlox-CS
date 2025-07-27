@@ -1,6 +1,11 @@
 namespace WrapBlox.Legacy.Enums;
-// TODO: Need to learn what the age brackets are, as they are not documented in the API.
 public enum AgeBracket {
-	Above13 = 0, // Above 13 years old (id verified doesn't matter)
-	Under13 = 1, // Under 13 years old. This is a guess.
+	/// <summary>
+	/// The user is above 13 years old.
+	/// </summary>
+	Above13 = 0, 
+	/// <summary>
+	/// The user is under 13 years old.
+	/// </summary>
+	Under13 = 1,
 }
