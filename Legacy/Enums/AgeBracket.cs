@@ -1,4 +1,5 @@
 namespace WrapBlox.Legacy.Enums;
+
 public enum AgeBracket {
 	/// <summary>
 	/// The user is above 13 years old.
