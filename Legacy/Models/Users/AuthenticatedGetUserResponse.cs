@@ -5,8 +5,7 @@ namespace WrapBlox.Legacy.Models.Users;
 /// <summary>
 /// A response model representing absolute minimal authenticating user information.
 /// No new attributes should be added to this response since it is in the critical path of app launch and we want to minimize dependencies.
-/// 
-
+/// </summary>
 public record AuthenticatedGetUserResponse {
 	/// <summary>
 	/// The user's ID.
